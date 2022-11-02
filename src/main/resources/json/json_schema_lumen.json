@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "messageId": {
+      "type": "string"
+    },
+    "messageTime": {
+      "type": "integer"
+    },
+    "messageType": {
+      "type": "string"
+    },
+    "messageName": {
+      "type": "string"
+    },
+    "responseName": {
+      "type": "string"
+    },
+    "pattern": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "correlationId": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "messageId",
+    "messageTime",
+    "messageType",
+    "messageName",
+    "responseName",
+    "pattern",
+    "version",
+    "source",
+    "uniqueId",
+    "correlationId",
+    "payload"
+  ]
+}
